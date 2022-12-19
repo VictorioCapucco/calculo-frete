@@ -1,3 +1,4 @@
+#BACKEND
 # Created by https://www.toptal.com/developers/gitignore/api/maven,java,eclipse,intellij
 # Edit at https://www.toptal.com/developers/gitignore?templates=maven,java,eclipse,intellij
 
@@ -76,5 +77,31 @@ buildNumber.properties
 .idea/modules
 *.iml
 *.ipr
+
+#FRONTEND
+
+.DS_Store
+node_modules
+package-lock.json
+/dist
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
 
