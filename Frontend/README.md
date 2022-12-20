@@ -1,5 +1,12 @@
 ## Configurando Frontend
 
-Clone o repositório e abra a pasta frontend no editor desejado, rode no terminal o comando <b>npm install</b> e em seguida <b>npm run serve</b>. Abra no navegador com o endereço http://localhost:3000/ e teste a aplicação. 
+Abra a pasta frontend no editor desejado e rode no terminal os seguintes comandos 
+```
+npm install
+```
+```
+npm run serve
+```
+Abra no navegador com o endereço http://localhost:3000/ e teste a aplicação. 
 
 
