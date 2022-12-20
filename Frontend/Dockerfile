@@ -1,0 +1,8 @@
+FROM node:14
+WORKDIR /frontend
+ARG PORT=3000
+ENV PORT=$PORT
+EXPOSE $PORT
+COPY . .
+RUN npm install
+ENTRYPOINT npm run serve
